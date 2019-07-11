@@ -13,6 +13,10 @@ def home(): # defines what our web home page will do
 def about(): # defines what our web home page will do
     return render_template("about.html")
 
+@app.route('/projects/')
+def projects(): # defines what our web home page will do
+    return render_template("projects.html")
+
 # When you execite the script, python assigns the name __main__
 if __name__ == "__main__":
     app.run(debug=True) # Would not be executed if the script was imported from somewhere else

@@ -65,10 +65,20 @@ h2 {
 h3 {
   font-size: 1.7em;
   font-weight: 100;
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
   letter-spacing: -1px;
-  color: #999;
+  color: red;
+}
+
+article {
+  font-size: 1em;
+  font-weight: 60;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: blue;
 }
 
 .menu {
