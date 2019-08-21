@@ -1,0 +1,13 @@
+{%extends "layout.html"%}
+{%block content%}
+
+<script type="text/javascript" src={{cdn_js | safe}}></script>
+
+<div class="plot">
+  <h1>Stock Scraping & Plotting </h1>
+  <p> Below is a candlestick chart for Google's stock price using Bokeh and pandas_datareader </p>
+</div>
+
+{{script1 | safe}}
+{{div1 | safe}}
+{%endblock%}
